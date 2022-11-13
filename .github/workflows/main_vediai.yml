@@ -12,8 +12,11 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    
     steps:
+   
+      - id: UseDotNet@2
+        name: 'Use .NET Core sdk'
     
       - uses: actions/checkout@v2
 
