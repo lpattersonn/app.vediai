@@ -8,13 +8,24 @@ on:
     branches:
       - main
   workflow_dispatch:
+  
+pool:
+  vmImage: ubuntu-latest
 
 jobs:
   build:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
+    
+      - task: UseDotNet@2
+       displayName: 'Use .NET Core sdk'
+        inputs:
+         packageType: sdk
+          version: 7.x
+        installationPath: $(Agent.ToolsDirectory)/dotnet
+        
+        - uses: actions/checkout@v2
 
       - name: Setup MSBuild path
         uses: microsoft/setup-msbuild@v1.0.2
