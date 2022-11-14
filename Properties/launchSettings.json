@@ -11,7 +11,7 @@
     "app.vediai": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7065;http://localhost:5048",
+      "applicationUrl": "https://vediai.azurewebsites.net/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy"

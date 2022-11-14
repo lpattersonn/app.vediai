@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/c17212c6-ca8d-4cff-b3e1-ae35c6567e75/AppServices/subscriptions/c17212c6-ca8d-4cff-b3e1-ae35c6567e75/resourceGroups/Vediai_group/providers/Microsoft.Web/sites/Vediai",
+  "appService.deploySubpath": "app.vediai/ClientApp"
+}
