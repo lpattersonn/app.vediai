@@ -12,9 +12,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    
+
     steps:
-    
       - uses: actions/checkout@v2
 
       - name: Setup MSBuild path
@@ -30,7 +29,7 @@ jobs:
         run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: ASP-app
           path: '/published/**'
@@ -54,5 +53,5 @@ jobs:
         with:
           app-name: 'Vediai'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD6AFEEFAEAA42789E68A7BB8665C3C1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BA1450AF32A44FBABE27B95E61F1B152 }}
           package: .
