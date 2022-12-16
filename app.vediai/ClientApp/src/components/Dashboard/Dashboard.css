@@ -1,0 +1,10 @@
+.dashboard-main--body {
+  display: flex;
+  flex-direction: row;
+}
+.dashboard-main--body-profile {
+  width: 409px;
+  height: 752px;
+  border-radius: 14px;
+  background: #f8f9fc;
+}/*# sourceMappingURL=Dashboard.css.map */

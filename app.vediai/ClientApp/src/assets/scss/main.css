@@ -39,14 +39,13 @@
   width: 130px;
   height: 100px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 0;
 }
 
 HTML,
 body {
   font-size: 10px;
-  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -94,8 +93,8 @@ label {
   font-weight: 400;
 }
 
-input[type=text],
-input[type=email] {
+input[type="text"],
+input[type="email"] {
   color: #7e7c87;
   width: 100%;
   border: 1px solid #ccc;
@@ -104,12 +103,12 @@ input[type=email] {
   margin: 0 0 15px 0;
   font-size: 1.6rem;
 }
-input[type=text]:hover,
-input[type=email]:hover {
+input[type="text"]:hover,
+input[type="email"]:hover {
   box-shadow: 0 10px 10px 0 rgba(14, 17, 51, 0.1);
 }
 
-input[type=textarea] {
+input[type="textarea"] {
   color: #7e7c87;
   width: 100%;
   border: 1px solid #ccc;
@@ -119,7 +118,7 @@ input[type=textarea] {
   font-size: 1.6rem;
   font-size: 1.6rem;
 }
-input[type=textarea]:hover {
+input[type="textarea"]:hover {
   box-shadow: 0 10px 10px 0 rgba(14, 17, 51, 0.1);
 }
 
@@ -160,4 +159,4 @@ a {
 }
 .link p {
   color: #6610f2;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

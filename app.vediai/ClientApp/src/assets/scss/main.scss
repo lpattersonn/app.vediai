@@ -3,6 +3,7 @@
 
 @import "Signin.scss";
 @import "NavMenu.scss";
+@import "typography.scss";
 
 // General
 $background-color: #f9f9f9;
@@ -34,45 +35,6 @@ $bs-gradient: linear-gradient(
   rgba(255, 255, 255, 0)
 );
 $mobile-screen: 1000px;
-
-HTML,
-body {
-  font-size: 10px;
-  font-family: $bs-font-sans-serif;
-}
-
-h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 2.6rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #2c234d;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  line-height: 1.2;
-  margin: 0 0 15px;
-  color: #0e1133;
-}
-
-h3 {
-  font-size: 22rem;
-}
-
-p {
-  font-size: 1.6rem;
-  color: #505056;
-  font-weight: 400;
-}
 
 li {
   font-size: 1.6rem;
