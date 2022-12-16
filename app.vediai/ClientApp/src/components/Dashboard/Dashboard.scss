@@ -1,0 +1,20 @@
+.dashboard {
+  &-main {
+    &--nav {
+    }
+    &--body {
+      display: flex;
+      flex-direction: row;
+      &-profile {
+        width: 409px;
+        height: 752px;
+        border-radius: 14px;
+        background: #f8f9fc;
+      }
+      &-profile-second {
+      }
+      &-profile-second-banner {
+      }
+    }
+  }
+}
