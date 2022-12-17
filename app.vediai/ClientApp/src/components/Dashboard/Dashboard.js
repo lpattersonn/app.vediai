@@ -56,10 +56,10 @@ export function Dashboard() {
                 <div className='dashboard-main--body-profile-second-body-actions-top-users'>
                   <div className='top-users--text'>
                     <p>
-                      <strong>Quick actions </strong>
+                      <strong>Top users</strong>
                     </p>
 
-                    <label>Plan a meeting or start a call</label>
+                    <label>Week to week performance</label>
                   </div>
                 </div>
               </div>
