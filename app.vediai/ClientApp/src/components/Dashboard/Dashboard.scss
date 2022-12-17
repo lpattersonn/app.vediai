@@ -1,5 +1,10 @@
+@import "../../assets/scss/style";
+
 .dashboard {
+  height: calc(80vh - 80px);
   &-main {
+    width: 95%;
+    margin-left: auto;
     &--nav {
     }
     &--body {
@@ -7,13 +12,95 @@
       flex-direction: row;
       &-profile {
         width: 409px;
-        height: 752px;
+        min-height: 100%;
         border-radius: 14px;
         background: #f8f9fc;
+        margin: 0 15px 15px 15px;
       }
       &-profile-second {
-      }
-      &-profile-second-banner {
+        margin: 0 15px 15px 15px;
+        width: 100%;
+        &-banner {
+          min-height: 173px;
+          max-height: 200px;
+          overflow-y: hidden;
+          margin: 0 0 15px 0;
+          padding: 15px;
+          @include border;
+          h2 {
+            margin: 0;
+          }
+          p {
+            font-size: 1.6rem;
+            line-height: 21px;
+            text-align: left;
+            color: #8083a3;
+            margin: 0;
+          }
+        }
+        &-body {
+          margin: 15px 0 0 0;
+          &-events {
+            width: 100%;
+            min-height: 65vh;
+            height: 173px;
+            @include border;
+            padding: 15px;
+            .events--text {
+              p {
+                margin: 0;
+              }
+            }
+          }
+          &-actions {
+            &-quick-actions {
+              @include border;
+              padding: 15px;
+              margin: 0 0 30px 0;
+              .quick-actions--text {
+                margin: 0 0 20px 0;
+                p {
+                  margin: 0;
+                }
+              }
+              .quick-actions--sections {
+                &-action {
+                  min-height: 67px;
+                  @include border;
+                  font-family: "Lato-Bold";
+                  font-weight: normal;
+                  font-size: 0.8rem;
+                  line-height: 1.8rem;
+                  text-align: left;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  &:hover {
+                    background-color: #f8f9fc;
+                  }
+                  &:hover a {
+                    color: #6b59cc;
+                  }
+                  a {
+                    text-decoration: none;
+                    color: #8083a3;
+                  }
+                }
+              }
+            }
+            &-top-users {
+              @include border;
+              padding: 15px;
+              .top-users--text {
+                margin: 0 0 20px 0;
+                p {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

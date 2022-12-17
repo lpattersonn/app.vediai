@@ -118,6 +118,44 @@ a {
   }
 }
 
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+  width: 100%;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  max-width: 100% !important;
+}
+
+nav.navbar-expand-sm.navbar-toggleable-sm.ng-white.border-bottom.box-shadow.mb-3.navbar.navbar-light {
+  padding: 0 15px;
+  height: 80px;
+}
+
+.grid {
+  display: grid;
+}
+.grid-one {
+  grid-template-columns: 1fr;
+}
+.grid-two {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-m {
+  grid-gap: 30px;
+}
+.grid-s {
+  grid-gap: 15px;
+}
+
 // Mixins
 @mixin media-down($arg) {
   @media (max-width: $arg) {
