@@ -77,6 +77,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-align: center;
 }
 .dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--sections-action:hover {
   background-color: #f8f9fc;
