@@ -138,6 +138,8 @@ a {
 nav.navbar-expand-sm.navbar-toggleable-sm.ng-white.border-bottom.box-shadow.mb-3.navbar.navbar-light {
   padding: 0 15px;
   height: 80px;
+  box-shadow: none;
+  border: 1px solid #eceef5 !important;
 }
 
 .grid {
