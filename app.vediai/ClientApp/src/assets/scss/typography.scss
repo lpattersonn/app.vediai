@@ -7,6 +7,10 @@ body {
   font-family: "Lato-Bold";
   src: url("../fonts/Lato-Bold.woff2");
 }
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/lato-regular-webfont.woff2");
+}
 
 h1 {
   font-size: 3.2rem;
@@ -50,7 +54,7 @@ h5 {
 }
 p {
   font-size: 1.6rem;
-  font-family: "Lato-Bold";
+  font-family: "Lato-Regular";
   font-weight: normal;
   line-height: 2.4rem;
   color: #1a1c1d;
@@ -69,7 +73,7 @@ li {
   font-size: 1.6rem;
 }
 label {
-  font-family: "Lato-Bold";
+  font-family: "Lato-Regular";
   font-weight: normal;
   font-weight: 500;
   font-size: 1.4rem;

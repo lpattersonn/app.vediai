@@ -22,18 +22,20 @@ export function Dashboard() {
             <div className='dashboard-main--body-profile-second-body grid grid-two grid-m'>
               <div className='dashboard-main--body-profile-second-body-events'>
                 <div className='events--text'>
-                  <strong>
-                    <p>Upcoming events</p>
-                  </strong>
+                  <p>
+                    <strong>Upcoming events</strong>
+                  </p>
+
                   <label>Scheduled meetings and calls</label>
                 </div>
               </div>
               <div className='dashboard-main--body-profile-second-body-actions'>
                 <div className='dashboard-main--body-profile-second-body-actions-quick-actions'>
                   <div className='quick-actions--text'>
-                    <strong>
-                      <p>Quick actions</p>
-                    </strong>
+                    <p>
+                      <strong>Quick actions </strong>
+                    </p>
+
                     <label>Plan a meeting or start a call</label>
                   </div>
                   <div className='quick-actions--sections grid grid-two grid-s'>
@@ -53,17 +55,10 @@ export function Dashboard() {
                 </div>
                 <div className='dashboard-main--body-profile-second-body-actions-top-users'>
                   <div className='top-users--text'>
-                    <strong>
-                      <p>Quick actions</p>
-                    </strong>
-                    <label>Plan a meeting or start a call</label>
-                  </div>
-                </div>
-                <div className='dashboard-main--body-profile-second-body-actions-top-users'>
-                  <div className='top-users--text'>
-                    <strong>
-                      <p>Quick actions</p>
-                    </strong>
+                    <p>
+                      <strong>Quick actions </strong>
+                    </p>
+
                     <label>Plan a meeting or start a call</label>
                   </div>
                 </div>
