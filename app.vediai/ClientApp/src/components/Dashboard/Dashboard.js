@@ -59,6 +59,14 @@ export function Dashboard() {
                     <label>Plan a meeting or start a call</label>
                   </div>
                 </div>
+                <div className='dashboard-main--body-profile-second-body-actions-top-users'>
+                  <div className='top-users--text'>
+                    <strong>
+                      <p>Quick actions</p>
+                    </strong>
+                    <label>Plan a meeting or start a call</label>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
