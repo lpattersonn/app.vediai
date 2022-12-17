@@ -1,10 +1,101 @@
+.dashboard {
+  height: calc(80vh - 80px);
+}
+.dashboard-main {
+  width: 95%;
+  margin-left: auto;
+}
 .dashboard-main--body {
   display: flex;
   flex-direction: row;
 }
 .dashboard-main--body-profile {
   width: 409px;
-  height: 752px;
+  min-height: 100%;
   border-radius: 14px;
   background: #f8f9fc;
+  margin: 0 15px 15px 15px;
+}
+.dashboard-main--body-profile-second {
+  margin: 0 15px 15px 15px;
+  width: 100%;
+}
+.dashboard-main--body-profile-second-banner {
+  min-height: 173px;
+  max-height: 200px;
+  overflow-y: hidden;
+  margin: 0 0 15px 0;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #eceef5;
+}
+.dashboard-main--body-profile-second-banner h2 {
+  margin: 0;
+}
+.dashboard-main--body-profile-second-banner p {
+  font-size: 1.6rem;
+  line-height: 21px;
+  text-align: left;
+  margin: 0;
+}
+.dashboard-main--body-profile-second-body {
+  margin: 15px 0 0 0;
+}
+.dashboard-main--body-profile-second-body-events {
+  width: 100%;
+  min-height: 65vh;
+  height: 173px;
+  border-radius: 10px;
+  border: 1px solid #eceef5;
+  padding: 15px;
+}
+.dashboard-main--body-profile-second-body-events .events--text p {
+  margin: 0;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions {
+  border-radius: 10px;
+  border: 1px solid #eceef5;
+  padding: 15px;
+  margin: 0 0 30px 0;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--text {
+  margin: 0 0 20px 0;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--text p {
+  margin: 0;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--sections-action {
+  min-height: 67px;
+  border-radius: 10px;
+  border: 1px solid #eceef5;
+  font-family: "Lato-Bold";
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--sections-action:hover {
+  background-color: #f8f9fc;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--sections-action:hover a {
+  color: #6b59cc;
+}
+.dashboard-main--body-profile-second-body-actions-quick-actions .quick-actions--sections-action a {
+  text-decoration: none;
+  color: #8083a3;
+}
+.dashboard-main--body-profile-second-body-actions-top-users {
+  border-radius: 10px;
+  border: 1px solid #eceef5;
+  padding: 15px;
+}
+.dashboard-main--body-profile-second-body-actions-top-users .top-users--text {
+  margin: 0 0 20px 0;
+}
+.dashboard-main--body-profile-second-body-actions-top-users .top-users--text p {
+  margin: 0;
 }/*# sourceMappingURL=Dashboard.css.map */
