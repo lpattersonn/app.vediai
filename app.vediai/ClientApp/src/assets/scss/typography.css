@@ -1,6 +1,6 @@
 HTML,
 body {
-  font-size: 10px;
+  font-size: 10px !important;
 }
 
 @font-face {
