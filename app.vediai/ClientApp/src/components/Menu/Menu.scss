@@ -1,0 +1,25 @@
+.menu {
+  width: 5%;
+  transition: 450ms ease-out;
+  min-height: calc(100vh);
+  border: 1px solid #eceef5;
+  &:hover {
+    width: 20%;
+  }
+  &--nav {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    a {
+      overflow-wrap: break-word;
+      text-align: center;
+      font-family: "Lato-Bold";
+      font-weight: normal;
+      font-size: 1.6rem;
+      color: #8083a3;
+      margin-bottom: clamp(60px, 100vh, 80px);
+      text-decoration: none;
+    }
+  }
+}

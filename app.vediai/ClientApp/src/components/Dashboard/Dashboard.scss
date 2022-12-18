@@ -2,9 +2,11 @@
 
 .dashboard {
   height: calc(80vh - 80px);
+  margin: 25px 0 0 0;
+  display: flex;
   &-main {
     width: 95%;
-    margin-left: auto;
+    transition: 450ms ease-out;
     &--nav {
     }
     &--body {
@@ -15,7 +17,7 @@
         min-height: 100%;
         border-radius: 14px;
         background: #f8f9fc;
-        margin: 0 15px 15px 15px;
+        margin: 0 15px 15px 30px;
       }
       &-profile-second {
         margin: 0 15px 15px 15px;
@@ -25,8 +27,11 @@
           max-height: 200px;
           overflow-y: hidden;
           margin: 0 0 15px 0;
-          padding: 15px;
+          padding: 0 15px;
           @include border;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
           h2 {
             margin: 0;
           }
@@ -35,6 +40,11 @@
             line-height: 21px;
             text-align: left;
             margin: 0;
+          }
+          &-image {
+            .bannerImage {
+              object-fit: cover;
+            }
           }
         }
         &-body {

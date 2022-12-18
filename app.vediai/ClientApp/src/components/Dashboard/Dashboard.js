@@ -1,9 +1,12 @@
 import React from "react";
 import "./Dashboard.css";
+import { Menu } from "../Menu/Menu.js";
+import DashboardPic from "../../assets/images/Illustration.svg";
 
 export function Dashboard() {
   return (
     <section className='dashboard'>
+      <Menu />
       <div className='dashboard-main'>
         <div className='dashboard-main--nav'></div>
         <div className='dashboard-main--body'>
@@ -17,7 +20,9 @@ export function Dashboard() {
                   with a welcome message
                 </label>
               </div>
-              <div className='dashboard-main--body-profile-second-banner-image'></div>
+              <div className='dashboard-main--body-profile-second-banner-image'>
+                <img className='bannerImage' src={DashboardPic} alt='' />
+              </div>
             </div>
             <div className='dashboard-main--body-profile-second-body grid grid-two grid-m'>
               <div className='dashboard-main--body-profile-second-body-events'>
