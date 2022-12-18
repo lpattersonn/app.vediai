@@ -3,13 +3,36 @@
   transition: 450ms ease-out;
   min-height: 100vh;
   border: 1px solid #eceef5;
+  margin: -25px 0 0 0;
+  border-top: none;
 }
 .menu:hover {
   width: 20%;
 }
-.menu--nav {
-  padding: 15px 0;
+.menu:hover .menu--nav-icons {
+  display: none;
+}
+.menu:hover .menu--nav {
   display: flex;
+}
+.menu--nav-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0;
+}
+.menu--nav-icons .navIcons {
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: clamp(60px, 100vh, 80px);
+}
+.menu--nav {
+  padding: 30px 0;
+  display: none;
   justify-content: center;
   flex-direction: column;
 }
@@ -22,4 +45,7 @@
   color: #8083a3;
   margin-bottom: clamp(60px, 100vh, 80px);
   text-decoration: none;
+}
+.menu--nav a:hover {
+  color: #6b59cc;
 }/*# sourceMappingURL=Menu.css.map */

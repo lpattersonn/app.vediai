@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 .dashboard-main--body-profile-second-banner h2 {
   margin: 0;
