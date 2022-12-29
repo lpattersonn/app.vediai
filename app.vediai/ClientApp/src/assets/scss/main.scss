@@ -49,8 +49,9 @@ label {
 }
 
 input[type="text"],
-input[type="email"] {
-  color: #7e7c87;
+input[type="email"],
+input[type="password"] {
+  color: #000;
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -156,6 +157,18 @@ nav.navbar-expand-sm.navbar-toggleable-sm.ng-white.border-bottom.box-shadow.mb-3
 }
 .grid-s {
   grid-gap: 15px;
+}
+
+.error {
+  margin: 20px 0 0 0;
+  p {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    @media screen and (max-width: 1000px) {
+      font-size: 1.8rem;
+    }
+  }
 }
 
 // Mixins

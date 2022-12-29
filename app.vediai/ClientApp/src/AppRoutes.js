@@ -6,6 +6,7 @@ const AppRoutes = [
   {
     index: false,
     element: <Dashboard />,
+    path: "/dashboard",
   },
   {
     index: true,

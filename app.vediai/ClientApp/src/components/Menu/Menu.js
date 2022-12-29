@@ -22,7 +22,7 @@ export function Menu() {
         <img className='navIcons' src={Setting} alt='' />
       </ul>
       <ul className='menu--nav'>
-        <Link to='/'>Dashboard</Link>
+        <Link to='/dashboard'>Dashboard</Link>
         <Link to='/'>Messenger</Link>
         <Link to='/'>Calls</Link>
         <Link to='/'>Conference</Link>
