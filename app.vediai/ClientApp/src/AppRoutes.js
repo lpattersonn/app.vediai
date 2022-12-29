@@ -4,11 +4,11 @@ import { Dashboard } from "./components/Dashboard/Dashboard";
 
 const AppRoutes = [
   {
-    index: true,
+    index: false,
     element: <Dashboard />,
   },
   {
-    index: false,
+    index: true,
     element: <Signin />,
   },
 ];
