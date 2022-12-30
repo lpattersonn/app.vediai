@@ -23,12 +23,12 @@ export function Menu() {
       </ul>
       <ul className='menu--nav'>
         <Link to='/dashboard'>Dashboard</Link>
-        <Link to='/'>Messenger</Link>
-        <Link to='/'>Calls</Link>
-        <Link to='/'>Conference</Link>
-        <Link to='/'>Contacts</Link>
-        <Link to='/'>Schedule</Link>
-        <Link to='/'>Settings</Link>
+        <Link to='/#'>Messenger</Link>
+        <Link to='/#'>Calls</Link>
+        <Link to='/#'>Conference</Link>
+        <Link to='/#'>Contacts</Link>
+        <Link to='/#'>Schedule</Link>
+        <Link to='/#'>Settings</Link>
       </ul>
     </section>
   );
