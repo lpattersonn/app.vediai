@@ -92,7 +92,7 @@ export function Signin() {
             <input type='checkbox' />
             Remember Me
           </label>
-          <a className='link' href='#'>
+          <a className='link' href='/#'>
             <p>Recover Password</p>
           </a>
         </div>

@@ -45,16 +45,16 @@ export function Dashboard() {
                   </div>
                   <div className='quick-actions--sections grid grid-two grid-s'>
                     <div className='quick-actions--sections-action'>
-                      <a href='#'> Start a conference call</a>
+                      <a href='/#'> Start a conference call</a>
                     </div>
                     <div className='quick-actions--sections-action'>
-                      <a href='#'> Add new contact</a>
+                      <a href='/#'> Add new contact</a>
                     </div>
                     <div className='quick-actions--sections-action'>
-                      <a href='#'> Send private message</a>
+                      <a href='/#'> Send private message</a>
                     </div>
                     <div className='quick-actions--sections-action'>
-                      <a href='#'> Launch screenshare</a>
+                      <a href='/#'> Launch screenshare</a>
                     </div>
                   </div>
                 </div>
