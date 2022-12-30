@@ -12,7 +12,7 @@ export function Signin() {
   // Get all users
   useEffect(() => {
     axios
-      .get("https://localhost:7286/interviewee")
+      .get("/interviewee")
       .then((res) => {
         setUsers(res.data);
       })
