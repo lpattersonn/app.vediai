@@ -12,7 +12,7 @@ export function Signin() {
   // Get all users
   useEffect(() => {
     axios
-      .get("https://vediaiapi.herokuapp.com/api/interviewee")
+      .get("https://vccvvcb.herokuapp.com/api/interviewee")
       .then((res) => {
         setUsers(res.data);
       })
