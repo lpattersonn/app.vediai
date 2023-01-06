@@ -14,7 +14,7 @@ export function Dashboard() {
           <div className='dashboard-main--body-profile-second grid grid-one'>
             <div className='dashboard-main--body-profile-second-banner'>
               <div className='dashboard-main--body-profile-second-banner-text'>
-                <h2>Your teammates are online</h2>
+                <h2>Interviewers are online</h2>
                 <label>
                   Schedule your call, conference meeting or start a new chats
                   with a welcome message
